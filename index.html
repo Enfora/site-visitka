@@ -5,81 +5,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Enfora CV</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
 
   <body>
-    <table cellspacing="15">
-      <tr>
-        <td>
-          <img src="catEnfora.jpg" alt="Не найдена картинка" width="100" />
-          <p><i>Программист 1С</i></p>
-        </td>
-        <td>
-          <p><strong>Отраслевая разработка программ на 1С</strong></p>
-        </td>
-      </tr>
-    </table>
+    <div class="container">
+      <div class="info">
+        <img class="avatar" src="catEnfora.jpg" alt="Не найдена картинка" />
+        <h1>Enfora Debug</h1>
+        <p>
+          <i>Программист 1С</i>
+        </p>
+        <p><strong>Отраслевая разработка программ на 1С</strong></p>
 
-    <h1>Enfora Debug</h1>
-    <hr />
-    <h2>Мои социальные сети</h2>
-    <ul type="I">
-      <li>
+        <h2>Мои социальные сети</h2>
         <a href="www.mail.ru" target="_blank"
           >enfora@mail.ru - основная почта</a
         >
-      </li>
-      <li>
+        |
         <a href="gmail.com" target="_blank"
           >sd.enfora@gmail.com - дополнительный почтовый ящик</a
         >
-      </li>
-    </ul>
-    <h2>Мое хобби</h2>
-    <a href="youtube.html">Посмотреть список</a>
-    <hr />
+      </div>
 
-    <h2>Опыт работы</h2>
-    <table>
-      <thead>
-        <tr>
-          <th>Организация</th>
-          <th>Должность</th>
-          <th>год</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>АКЦИИ</td>
-          <td>Аналитик</td>
-          <td>1990</td>
-        </tr>
-        <tr>
-          <td>Академия инструмента</td>
-          <td>Программист 1С</td>
-          <td>2001</td>
-        </tr>
-      </tbody>
-      <tfoot></tfoot>
-    </table>
-    <hr />
+      <hr />
+      <div class="card bg-red">
+        <h2>Мое хобби</h2>
+        <a href="youtube.html">Посмотреть список</a>
+      </div>
+      <hr />
+      <div class="card bg-green">
+        <h2>Опыт работы</h2>
+        <table class="table">
+          <tr>
+            <td>АКЦИИ</td>
+            <td>Аналитик</td>
+            <td>1990</td>
+          </tr>
+          <tr>
+            <td>Академия инструмента</td>
+            <td>Программист 1С</td>
+            <td>2001</td>
+          </tr>
+          <tr>
+            <td>Youtube</td>
+            <td>Blogger</td>
+            <td>2019- now</td>
+          </tr>
+        </table>
+      </div>
+      <hr />
 
-    <h2>Связаться со мной</h2>
-    <br />
-    <form action="/">
-      <label for="name">Ваше имя:</label>
-      <input type="text" id="name" placeholder="Введите Ваше имя" />
+      <h2>Связаться со мной</h2>
       <br />
+      <form action="/">
+        <label for="name">Ваше имя:</label>
+        <input type="text" id="name" placeholder="Введите Ваше имя" />
+        <br />
 
-      <label for="email">Ваш e-mail:</label>
-      <br />
-      <input type="email" id="email" placeholder="Введите Ваш e-mail" />
-      <br />
-      <label for="text">Ваше сообщение:</label>
-      <br />
-      <textarea name="" id="text" cols="15" rows="2"></textarea>
-      <br />
-      <input type="submit" value="Связаться" />
-    </form>
+        <label for="email">Ваш e-mail:</label>
+        <br />
+        <input type="email" id="email" placeholder="Введите Ваш e-mail" />
+        <br />
+        <label for="text">Ваше сообщение:</label>
+        <br />
+        <textarea name="" id="text" cols="15" rows="2"></textarea>
+        <br />
+        <input type="submit" value="Связаться" />
+      </form>
+    </div>
   </body>
 </html>
